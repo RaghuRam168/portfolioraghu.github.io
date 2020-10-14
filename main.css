@@ -12,7 +12,6 @@ ul{
     background-color:black;
     text-align: center;
     position: fixed;
-  
     border-right: 1px solid green;
 }
 
@@ -34,14 +33,14 @@ ul{
 .sd-bar{
     
     height:30px;
-    widows: 100vh;
+    width:250px;
     padding-top: 30px;
     border-bottom-width: 10px;
     border-color: black;
-   
- 
 }
+
 a{
+  
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:wheat;
     text-decoration: none;
@@ -54,6 +53,11 @@ a:hover{
     color:red;
     cursor: pointer;
 }
+.sd-bar > .active > a { 
+    background-color: color ; 
+    transition-delay: initial;
+}
+
 
 #home{
     height: 100vh;
@@ -144,12 +148,13 @@ a:hover{
 
 
 #aboutme{
-    height: 100vh;
-    width: auto;
+    height: 106vh;
+    width:auto;
     background-color: rgb(2, 15, 15);
-    padding: 50px 40px;
+   padding: 50px 40px;
     color: azure;
     margin-left: 250px;
+
 
 }
 .about-head{
@@ -160,9 +165,84 @@ a:hover{
     text-shadow: 2px 1px rgb(90, 214, 90);
 }
 
-.line{
+.line1{
    
     height: 4px;
-    width: auto;
+    width:200px;
     background-color: chartreuse;
 }
+.line2{
+    margin-top: 2px;
+    height: 4px;
+    width:100px;
+    background-color: chartreuse;
+}
+
+.ab-head{
+    display: flex;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ab1-head{
+    padding-left: 10px;
+    color: greenyellow;
+    text-shadow:1px 1px rgb(216, 206, 206);
+}
+.ab-para{
+   font-size: 20px;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+
+.ps-head{
+
+    padding-top:90px;
+    float: left;
+    font-size:20px;    
+    color: aquamarine;
+}
+.ps-details{
+    float: left;    
+    font-size: 20px;
+    padding-top:90px;
+
+}
+.lii-ab{
+    padding-top: 8px;
+}
+.li-ab{
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.ab-btn-div
+{
+    padding-top: 330px;
+    display: flex;
+    height: 60px;
+    width: auto;
+    text-align: center;
+    margin-right: 100px;
+}
+.ab-btn-ul{
+    text-align: center;
+    display: flex;
+    color: aliceblue;
+    height: 40px;
+    width: auto;
+
+}
+.ab-btn-li{
+    padding-top: 13px;
+    text-align: center;
+  margin-left: 20px;
+    height: 40px;
+    width: 200px;
+    color:whitesmoke;
+    background-color:red;
+    border-radius: 30px;
+}
+
+
