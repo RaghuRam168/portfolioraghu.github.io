@@ -74,6 +74,7 @@ a:hover{
     width: 300px;
    background-size: cover;
     background-image: url(raghu.jpg);
+    border:3px solid green ;
     background-color: rgb(10, 10, 9);
     border-radius: 300px;
 }
@@ -116,7 +117,7 @@ a:hover{
   /* Add a hover effect if you want */
   .fa:hover {
     
-    background-color:rgb(219, 241, 139);
+    background-color:white;
   }
   
   /* Set a specific color for each brand */
@@ -249,4 +250,8 @@ a:hover{
     border-radius: 30px;
 }
 
-
+a:hover{
+    cursor: pointer;
+    color:red;
+    background-color:whitesmoke;
+}
