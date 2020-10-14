@@ -104,11 +104,11 @@ a:hover{
 /* Style all font awesome icons */
 .fa {
     padding: 10px;
-    font-size: 30px;
-    width: 20px;
+    font-size: 50px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
-   
+   border-radius: 3px;
     border-color: aliceblue;
    border-width: 2px;
   }
@@ -116,7 +116,7 @@ a:hover{
   /* Add a hover effect if you want */
   .fa:hover {
     
-    background-color:white;
+    background-color:rgb(219, 241, 139);
   }
   
   /* Set a specific color for each brand */
@@ -211,10 +211,14 @@ a:hover{
 }
 .lii-ab{
     padding-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .li-ab{
     padding-left: 100px;
     padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .ab-btn-div
